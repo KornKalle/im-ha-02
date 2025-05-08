@@ -13,7 +13,7 @@ const videoMarkers = {
     },
     50: {
         title: "Nachhaltigkeit",
-        description: "Hier wird die CO2 Bilanz und die Herkunft der Hölzer erklärt. Alle verwendeten Materialien stammen aus nachhaltiger Forstwirtschaft in der Region. Der ökologische Fußabdruck wurde bei jeder Bauphase berücksichtigt."
+        description: "Hier wird die CO2 Bilanz und die Herkunft der Hölzer erklärt. Alle verwendeten Materialien stammen aus nachhaltiger Forstwirtschaft in der Region."
     },
     104: {
         title: "Luftbilder",

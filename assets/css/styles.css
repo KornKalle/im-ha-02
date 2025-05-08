@@ -16,21 +16,24 @@ video {
 
 button {
     padding: 10px 20px;
+    white-space: nowrap;
     font-size: 16px;
+    min-width: 150px;
     cursor: pointer;
 }
-
 
 #infoBox {
     margin-top: 10px;
     padding: 10px;
-    width: 400px;
+    width: 100%;
     background-color: #fff;
     border: 1px solid #ccc;
+    height: 100%;
     border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     line-height: 1.5;
     justify-content: center;
+    min-height: 100px;
 }
 
 #heading {
@@ -43,8 +46,7 @@ button {
 
 .text-group {
     display: flex;
-    width: 100%;
-    padding: 10px;
+    width: 640px;
     justify-content: center;
     align-items: center;
 }
