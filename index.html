@@ -29,45 +29,8 @@
   <p id="infoBox">description</p>
 </div>
 
-
-<script>
-  window.onload = function() {
-    markVideo(0);
-  }
-
-  function markVideo(seconds) {
-    const video = document.getElementById("video");
-    video.currentTime = seconds;
-    let title = "Default title";
-    let description = "Default value";
-
-    switch (seconds) {
-      case 0:
-        title = "Die Turmbühne";
-        description = "Das Bauprojekt \"Turmbühne\" des Kulturkosmos Müritz";
-        break;
-      case 23:
-        title = "Tribünen"
-        description = "Hier werden überall Tribünen gebaut";
-        break;
-      case 38:
-        title = "Materialien"
-        description = "Verwendet werden Lerche, Douglasie und Eiche";
-        break;
-      case 50:
-        title = "Nachhaltigkeit"
-        description = "Hier wird die CO2 Bilanz und die Herkunft der Hölzer erklärt";
-        break;
-      case 104:
-        title = "Luftbilder"
-        description = "Zum Abschluss noch ein paar Luftbilder";
-        break;
-    }
-
-    document.getElementById("infoBox").textContent = description;
-    document.getElementById("heading").innerText = title;
-  }
-</script>
+<script src="assets/js/constants.js"></script>
+<script src="assets/js/video.js"></script>
 
 </body>
 </html>
